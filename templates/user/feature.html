@@ -1,0 +1,29 @@
+{% load static %}
+<div class="banner-text w3-agile-banner-text">
+    <div class="agile_dot_info">
+        <div class="container">
+            <h2 class="wthree_head">Featured Video! <span>Sounds made by voices</span></h2>
+            
+              <div class="v_pic_agile">
+                   <img src="{% static 'user/images/g5.jpg'%}" alt=" " class="img-responsive" />
+                 <a href="#" data-toggle="modal" data-target="#myModal2" class="play" href="#"><i class="fa fa-play" aria-hidden="true"></i></a>
+
+               </div>
+        
+
+        </div>
+    </div>
+</div>
+<div class="modal ab fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog video" role="document">
+        <div class="modal-content about">
+            <div class="modal-header">
+                <button type="button" class="close ab_v" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+            </div>
+            <div class="modal-body about">
+                    <video controls src="{% static 'user/images/jignasha.mp4' %}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen width="570" height="240"></video>             
+            </div>
+            
+        </div>
+    </div>
+</div>
